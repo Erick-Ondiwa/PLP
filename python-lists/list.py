@@ -19,8 +19,13 @@ my_list.pop()
 
 # Sort my_list in ascending order
 my_list.sort()
-print(my_list)
 
 # Find and print the index of the value 30 in my_list
 index_of_30 = my_list.index(30)
 print("Index of 30:", index_of_30)
+
+
+# Create a function named large_power() that takes two parameters named base and exponent.If base raised to the exponent is greater than 5000, return True, otherwise return False
+
+def large_power(base, exponent):
+  return True if base ** exponent > 5000 else False

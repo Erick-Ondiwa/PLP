@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Group</title>
+</head>
+<body>
+  <div id="header"></div> 
+  <main>
+    
+  </main>
+  <div id="header"></div> 
+
+  <script>
+    document.getElementById("header").innerHTML = fetch("header.html").then(response => response.text()).then(data => document.getElementById("header").innerHTML = data);
+    document.getElementById("footer").innerHTML = fetch("footer.html").then(response => response.text()).then(data => document.getElementById("footer").innerHTML = data);
+  </script>
+</body>
+</html>
