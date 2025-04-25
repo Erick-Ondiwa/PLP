@@ -13,7 +13,7 @@ Welcome to our E-Commerce Database project! This project involves designing a ro
 ## 📘 ERD (Entity-Relationship Diagram)
 
 You can view the complete ERD here:  
-🔗 [View ERD on dbdiagram.io](https://drive.google.com/file/d/1YQ70qUZ199BF2XFoc26sRAFYjqIo6e4I/view?usp=sharing) 
+🔗 [View ERD on draw.io](https://drive.google.com/file/d/1YQ70qUZ199BF2XFoc26sRAFYjqIo6e4I/view?usp=sharing) 
 The ERD includes 12 interrelated tables representing various aspects of an e-commerce platform, such as products, images, variations, categories, sizes, and attributes.
 
 ---
@@ -50,7 +50,7 @@ The ERD includes 12 interrelated tables representing various aspects of an e-com
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/Erick-Ondiwa/plp/database-design.git
+git clone https://github.com/Erick-Ondiwa/PLP/tree/main/database-design.git
 cd database-design
 
 
