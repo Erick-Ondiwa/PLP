@@ -5,25 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UI Portfolio - John Watson</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
   <!-- Header -->
   <header class="hero">
     <nav class="navbar">
-      <div class="logo">UI Portfolio</div>
+      <h1>Portfolio</h1>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Pages</a></li>
         <li><a href="#">Contact</a></li>
-      </ul>
-      <a href="#" class="btn">Hire Me</a>
+        <a href="#" class="btn">Hire Me</a>
+        <li><i class="fas fa-search"></i></li>
+        <li><i class="fas fa-moon"></i></li>
+      </ul> 
     </nav>
 
-    <div class="hero-content">
+    <div id="home" class="hero-content">
       <div class="hero-details">
         <h1>Hi, I'm John Watson</h1>
         <h2><span>Web De</span></h2>
@@ -34,11 +36,25 @@
         </div>
       </div>
       <img src="images/home image.png" alt="Hero image">
+
+      <div class="nav-buttons">
+        <button class="back nav-btn">
+          <i class="fas fa-forward"></i> Forward
+        </button>
+        <button class="nav-btn">
+          <i class="fas fa-arrow-left"></i> Back
+        </button>
+        <button class="nav-btn">
+          <i class="fas fa-download"></i> Download
+        </button>
+        <button class="nav-btn">
+          <i class="fas fa-shopping-cart"></i> Buy
+        </button>
+      </div>
     </div>
   </header>
-
-  <!-- About Section -->
-  <section class="about">
+    <!--About Section -->
+  <section id="about" class="about">
     <img src="images/biography image.png" alt="John Watson" class="about-img">
     <div class="bio">
       <div class="bio-intro">
@@ -53,18 +69,27 @@
         </div>
         <div>
           <p><strong>Email:</strong> example@mail.com</p>
-          <p><strong>Phone:</strong> +1 234 567 8901</p>
+          <p><strong>Phone:</strong>+1 234 567 8901</p>
         </div>
       </div>
       <div class="social-links">
-        <p>Follow me on </p>
+        <p>Follow me on</p>
         <div class="links">
-          <a href="#">Binance</a>
-          <a href="#">Linkedin</a>
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
+          <a href="#">
+            <i class="fab fa-behance"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
         </div>
       </div>
+      
       <div class="bio-buttons">
         <a href="#" class="btn">Hire me</a>
         <a href="#" class="btn secondary">Download CV</a>
@@ -73,24 +98,33 @@
   </section>
 
   <!-- Services -->
-  <section class="services">
+  <section id="services" class="services">
     <h2>What I Do For You</h2>
     <div class="service-cards">
+    
       <div class="card">
+        <i class="fas fa-code"></i>
         <h3>Web Development</h3>
         <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
       </div>
+      
       <div class="card">
+        <i class="fas fa-mobile-alt"></i>
         <h3>App Development</h3>
         <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
       </div>
+      
       <div class="card">
+        <i class="fas fa-camera"></i>
         <h3>Photography</h3>
         <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
       </div>
+  
     </div>
+    
     <a href="#" class="more-services">More Services →</a>
   </section>
+  
 
   <!-- Skills -->
   <section class="skills">
@@ -178,15 +212,41 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-logos">
-      <img src="images/badge 1.png" alt="Logo 1" />
-      <img src="images/badge 2.png" alt="Logo 2" />
-      <img src="images/badge 3.png" alt="Logo 3" />
-      <img src="images/badge 4.png" alt="Logo 4" />
-    </div>
-  </footer>
 
+  <div class="badges">
+    <img src="images/badge 1.png" alt="Logo 1" />
+    <img src="images/badge 2.png" alt="Logo 2" />
+    <img src="images/badge 3.png" alt="Logo 3" />
+    <img src="images/badge 4.png" alt="Logo 4" />
+  </div>
+
+   <!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <h2><i class="fa-solid fa-pencil"></i> UI Portfolio</h2>
+    </div>
+    <div class="footer-contact">
+      <p><i class="fa-solid fa-phone"></i> +12 345 678 900</p>
+      <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> 208 Avenue street, UK - 62617.</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2022 UI Portfolio. All Rights Reserved</p>
+    <div class="footer-socials">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+      <a href="#"><i class="fa-brands fa-vk"></i></a>
+    </div>
+    <div class="scroll-top">
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </div>
+</footer>
+  
 </body>
 </html>
