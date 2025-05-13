@@ -41,8 +41,6 @@ The database will be created with all necessary tables and relationships.
 Here is the ERD representing the structure and relationships in this project:
 
 
-(Optional) You can replace the image URL above with your actual ERD image hosted on Imgur, GitHub, or any cloud storage.
-
 
 ## Project Structure
 clinic-booking-system/
