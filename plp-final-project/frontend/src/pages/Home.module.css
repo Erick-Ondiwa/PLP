@@ -1,0 +1,79 @@
+/* Home.module.css */
+
+.wrapper {
+  padding: 2rem;
+  background-color: #f0fdf4;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #064e3b;
+  margin-bottom: 0.5rem;
+}
+
+.subHeader {
+  font-size: 1.2rem;
+  color: #065f46;
+  margin-bottom: 1rem;
+}
+
+.heroSection {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.loginButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #218838;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  /* border-radius: 1rem; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #34d399;
+  transition: transform 0.2s ease-in-out;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #065f46;
+}
+
+.cardText {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+
+/*  */

@@ -1,0 +1,21 @@
+/* Layout.module.css */
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.mainContentWrapper {
+  display: flex;
+  flex: 1;
+  overflow: hidden; /* Prevent scroll overflow */
+}
+
+.contentArea {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+  background-color: #f0fdf4; /* Light greenish background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
