@@ -40,13 +40,13 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} CropMonitor. All rights reserved.
       </div>
       <div>
-        Built with ❤️ by <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">Your Name</a>
+        Built with ❤️ by <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">Erick Ondiwa</a>
       </div>
       <div className={styles.socialIcons} aria-label="social media links">
         <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
           <TwitterIcon />
         </a>
-        <a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/Erick-Ondiwa" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <GitHubIcon />
         </a>
       </div>
