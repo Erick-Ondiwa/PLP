@@ -1,0 +1,61 @@
+.wrapper {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #1b5e20;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+}
+
+.cropName {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.healthBar {
+  background-color: #eee;
+  border-radius: 6px;
+  height: 10px;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.healthFill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Dynamic status styles */
+.healthy .healthFill {
+  background-color: #4caf50;
+}
+
+.moderate .healthFill {
+  background-color: #ffc107;
+}
+
+.critical .healthFill {
+  background-color: #f44336;
+}

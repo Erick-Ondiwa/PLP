@@ -1,0 +1,14 @@
+.dashboard {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.widgetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 32px 0;
+}
